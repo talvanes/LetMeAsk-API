@@ -2,8 +2,5 @@
   "$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
   "extends": [
     "ultracite"
-  ],
-  "formatter": {
-    "semicolons": "as-needed"
-  }
+  ]
 }
