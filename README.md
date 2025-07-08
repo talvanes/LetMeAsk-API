@@ -65,4 +65,4 @@ npm start
 
 ### License
 
-This project is licensed under the ISC License.
+This project is licensed under the WTFPL (Do What The F*ck You Want To Public License).
