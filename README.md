@@ -1,7 +1,11 @@
 
-# LetMeAsk-API
+# LetMeAsk (API)
 
-NLW #20 Agents Let Me Ask (API): Agente de IA que responde as perguntas da galera em tempo real.
+**NLW #20 Agents**
+
+**Let Me Ask (API)**: An AI agent that answers user questions in real time.
+
+Basically, it's like having a super-smart robot friend inside your live streaming. You can ask it anything, and it'll try its best to give you a good answer right away. Think of it as a really fast live assistant that tries to understand what you're asking instead of just showing you a bunch of links. It's still learning, but it's pretty good at helping you find information or just answering your random questions!
 
 ## Project Setup
 
