@@ -1,4 +1,3 @@
-
 # LetMeAsk (API)
 
 **NLW #20 Agents**
@@ -38,6 +37,11 @@ npm run dev
 
 The server will run on the port specified in the `.env` file, defaulting to `3333`.
 
+Additionally, to populate the database with initial room data for development or testing, run the following command:
+````bash
+npm run db:seed
+```
+
 ### Environment Variables
 
 Make sure to set up the following environment variables in a `.env` file:
@@ -49,12 +53,18 @@ Make sure to set up the following environment variables in a `.env` file:
 - `src/server.ts`: Main entry point for the Fastify server setup.
 - `src/db/connection.ts`: Database connection setup using PostgreSQL.
 - `src/env.ts`: Environment configuration using Zod.
+- `src/db/seed.ts`: Seeds the database with initial data.
+- `src/db/migrations/`: Database migration files.
+- `src/db/schema/`: Database schema definitions.
+- `src/http/routes/`: Fastify route handlers (e.g., `get-rooms.ts`).
 
 ### Features
 
 - Fastify server with CORS enabled.
 - Type-safe environment variables using Zod.
 - Health check endpoint available at `/health`.
+- Database migrations and seeding support.
+- Modular route and schema structure.
 
 ### Deployment
 
