@@ -38,7 +38,7 @@ npm run dev
 The server will run on the port specified in the `.env` file, defaulting to `3333`.
 
 Additionally, to populate the database with initial room data for development or testing, run the following command:
-````bash
+```bash
 npm run db:seed
 ```
 
