@@ -117,7 +117,7 @@ Pull requests and issues are welcome! This project is a learning resource and a 
 
 ## 📜 License
 
-This project is licensed under the WTFPL (Do What The F*ck You Want To Public License).
+This project is licensed under the [WTFPL](LICENSE) (Do What The F*ck You Want To Public License).
 
 ---
 
