@@ -29,6 +29,7 @@ app.get('/health', () => {
   return 'ok';
 });
 
+// TODO #6 Mover rotas para um arquivo separado
 app.register(getRoomsRoute);
 app.register(createRoomRoute);
 app.register(getRoomsQuestionsRoute);

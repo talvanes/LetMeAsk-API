@@ -17,6 +17,7 @@ export const createRoomRoute: FastifyPluginCallbackZod = (app) => {
     async ({ body }, reply) => {
       const { name, description } = body;
 
+      // TODO #4 migrar create room como service
       const [insertedRoom] = await db
         .insert(schema.rooms)
         .values({

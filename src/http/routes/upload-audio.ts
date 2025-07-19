@@ -18,6 +18,7 @@ export const uploadAudioRoute: FastifyPluginCallbackZod = (app) => {
       const { roomId } = request.params
       const audio = await request.file()
 
+      // TODO #1 migrar upload áudio como service
       if (!audio) {
         throw new Error('Please upload an audio file.')
       }

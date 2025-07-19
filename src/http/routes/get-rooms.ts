@@ -5,6 +5,7 @@ import { schema } from '../../db/schema/index.ts';
 
 export const getRoomsRoute: FastifyPluginCallbackZod = (app) => {
   app.get('/rooms', async () => {
+    // TODO #2 migrar get rooms como service
     const results = await db
       .select({
         id: schema.rooms.id,

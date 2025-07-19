@@ -22,6 +22,7 @@ export const createQuestionRoute: FastifyPluginCallbackZod = (app) => {
       const { question } = body
       const { roomId } = params
 
+      // TODO #5 migrar create questions como service
       const embeddings = await generateEmbeddings(question)
       const embeddingsAsString = `[${embeddings.join(',')}]`
 

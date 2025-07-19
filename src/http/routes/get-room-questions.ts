@@ -17,6 +17,7 @@ export const getRoomsQuestionsRoute: FastifyPluginCallbackZod = (app) => {
     async ({ params }) => {
       const { roomId } = params;
 
+      // TODO #3 migrar get room questions como service
       const result = await db
         .select({
           id: schema.questions.id,
